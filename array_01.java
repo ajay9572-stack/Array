@@ -1,4 +1,6 @@
 class Array_01 {
+
+// initialize array without taking user input ( method-1)
     public static void main(String[] args) {
         int[] arr = new int[5]; 
         arr[0] = 10; 
