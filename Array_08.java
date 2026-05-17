@@ -1,5 +1,5 @@
 public class Array_08 { 
-    //3D array
+    //3D array initialization using new keyword
     public static void main(String[] args) {
         int [][][] a = new int[2][3][2];
         a[0][0][0] = 10;

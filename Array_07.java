@@ -1,5 +1,5 @@
 public class Array_07 {
-    //3D array
+    //3D array initialization
     public static void main(String[] args) {
         int [][][] a = {{{1, 2, 3}, {4, 5}}, {{6, 7}}};
         System.out.println(a[0][1][0]);
