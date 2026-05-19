@@ -1,4 +1,4 @@
-public class Arraay_05 {
+public class Array_05 {
     // 2D array with different column sizes that is jaggged arra
     public static void main(String[] args) {
         int [][] a = new int[2][];
