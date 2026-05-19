@@ -1,22 +1,22 @@
 import java.util.Scanner;  
-// Bubble sort for numeric values//
+// Bubble sort for String//
 
-public class Array_11 {
+public class Array_12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
-        int[] a = new int[n];
+        String[] a = new String[n];
         System.out.println("Enter elements of array:");
-         int temp;
+        String temp;
         for (int i = 0; i < n; i++) {
-            a[i] = sc.nextInt();
+            a[i] = sc.next();
         }
 
         for (int i = 0; i < n - 1; i++) {
             int flag = 0;
             for (int j = 0; j < n - 1 - i; j++) {
-                if (a[j] > a[j + 1]) {
+                if (a[j].compareTo(a[j + 1]) > 0) {
                     temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
