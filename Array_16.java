@@ -22,5 +22,6 @@ public class Array_16 {
           }  
         }
        System.out.println(lastindex);
+       sc.close();
     }
     }
