@@ -2,7 +2,7 @@ import java.util.Scanner;
 // target =  sum of pair elemet; how much pair element of sum = target//
 public class Array_17 {
     public static void main(String[] args) {
-        System.out.println("enter element");
+        System.out.print("enter element");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a [] =  new int[n];
