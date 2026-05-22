@@ -2,7 +2,7 @@ import java.util.Scanner;
 // find index no in an array
 public class Array_16 {
     public static void main(String[] args) {
-        System.out.println("enter row: ");
+        System.out.print("enter row: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
          int []a = new int[n];
