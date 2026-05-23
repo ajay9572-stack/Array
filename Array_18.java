@@ -33,6 +33,7 @@ public class Array_18 {
            
         }
          System.out.println(ans);   
+         sc.close();
    }
 } 
 
