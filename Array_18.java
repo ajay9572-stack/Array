@@ -2,7 +2,7 @@ import java.util.Scanner;
 // unique no. of an array//
 public class Array_18 {
     public static void main(String[] args) {
-        System.out.println("enter element");
+        System.out.print("enter element: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a [] =  new int[n];
