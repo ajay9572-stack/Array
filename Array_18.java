@@ -2,11 +2,11 @@ import java.util.Scanner;
 // unique no. of an array//
 public class Array_18 {
     public static void main(String[] args) {
-        System.out.print("enter element: ");
+        System.out.print("enter size of array: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int a [] =  new int[n];
-        System.out.print("enter index: ");
+        System.out.print("enter elements: ");
         for(int i = 0; i<n; i++ )
         {
             a[i] = sc.nextInt();
