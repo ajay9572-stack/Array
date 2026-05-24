@@ -18,8 +18,10 @@ public class Array_19  {
               arr[j]=a[i];
               j++;
         }
+        System.out.print("reverse of array:");
        for(int i=0;i<a.length;i++){
         System.out.println(arr[i]);
+        
        }
        sc.close();
     }
