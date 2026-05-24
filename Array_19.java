@@ -7,7 +7,7 @@ public class Array_19  {
         int n = sc.nextInt();
         int a [] = new int[n];
         int arr[] = new int[n];
-        System.out.print("enter index: ");
+        System.out.print("enter elements: ");
         for ( int i = 0;i<n;i++)
         {
             a[i]= sc.nextInt();
