@@ -17,7 +17,7 @@ public class Array_20 {
     sum = sum+ number[i];
     
  }
-
+System.out.println("sum of an array: "+ sum);
 //  System.out.print( sum);
 }
 
