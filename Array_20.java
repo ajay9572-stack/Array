@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Array_20 {
     
    public static void main(String[] args) {
-    System.out.println("enter size of an array: ");
+    System.out.print("enter size of an array: ");
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] number = new int[n];
