@@ -20,7 +20,7 @@ public class Array_21 {
             }
 
         }
-      //  System.out.println("print maximum element of an araray: ");
+        System.out.println("print maximum element of an araray: ");
         System.out.println(maximumvalue);
     }
 }
