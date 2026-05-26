@@ -9,7 +9,7 @@ public class Array_21 {
         int n = sc.nextInt();
         int [] number = new int[n];
         int maximumvalue = 0;
-        System.out.println("enter element of an array:");
+        System.out.print("enter element of an array:");
         for (int i =0; i<n;i++){
            number [i] = sc.nextInt();
         }
@@ -21,6 +21,7 @@ public class Array_21 {
         }
         System.out.println("print maximum element of an araray: ");
         System.out.println(maximumvalue);
+        sc.close();
     }
 }
 
