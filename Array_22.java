@@ -7,7 +7,7 @@ public class Array_22 {
         int n = sc.nextInt();
         int[] arr = new int[n];
         int minimumvalue =Integer.MAX_VALUE;
-         System.out.println("enter element of an array: ");
+         System.out.print("enter element of an array: ");
         for (int i= 0; i<n;i++){
             arr[i]=  sc.nextInt();
            
@@ -17,7 +17,7 @@ public class Array_22 {
                 minimumvalue= arr[i];
             }
          }
-         System.out.println("Print array: ");
+         System.out.print("Print array: ");
         System.out.println(minimumvalue);
     }
 }
