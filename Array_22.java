@@ -19,5 +19,6 @@ public class Array_22 {
          }
          System.out.print("Print array: ");
         System.out.println(minimumvalue);
+        sc.close();
     }
 }
