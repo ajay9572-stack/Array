@@ -2,7 +2,7 @@ import java.util.Scanner;
         //min. value of an array
 public class Array_22 {
     public static void main(String[] args) {
-         System.out.println("enter size of an array: ");
+         System.out.print("enter size of an array: ");
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
